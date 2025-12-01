@@ -1,5 +1,4 @@
-      import React,  from 'react'
-      import { useState } from 'react'
+import React from 'react'
 import logo from '../../assets/icons/logo.svg'
 import search from '../../assets/icons/search.svg'
 import globe from '../../assets/icons/globe.svg'
@@ -18,9 +17,9 @@ function SignLogin() {
                         <img src={logo} alt="logo" className='hidden md:block' />
                         {/* Anywhere and co */}
                     </div>
-                    <div className='h-9 w-[500px] grid md:grid-cols-3 gap-1 border-gray-400 border-1 rounded-3xl justify-items-center items-center mt-2 md:'>
-                        <p className='w-32 txet-2xl font-bold border-r-2 mt-1 mb-2 text-center hidden md:block'>Anywhere</p>
-                        <p className='w-32 text-center txet-2xl font-bold border-r-2 mt-1 mb-2 hidden md:block '>Any week</p>
+                    <div className='h-9 w-[500px] grid md:grid-cols-3 gap-1 border-gray-400 border rounded-3xl justify-items-center items-center mt-2 md:'>
+                        <p className='w-32 text-2xl font-bold border-r-2 mt-1 mb-2 text-center hidden md:block'>Anywhere</p>
+                        <p className='w-32 text-center text-2xl font-bold border-r-2 mt-1 mb-2 hidden md:block '>Any week</p>
                         <div className='flex items-center md:mb-2 gap-2'>
                             <p className='mt-1 ml-1 text hidden md:block'>Add guests</p>
                             <img className='md:ml-10  h-6 w-6 md:mt-1.5' src={search} alt="Search" />
